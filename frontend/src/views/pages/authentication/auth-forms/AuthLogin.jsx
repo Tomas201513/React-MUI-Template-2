@@ -47,7 +47,7 @@ const FirebaseLogin = ({ ...others }) => {
   const [checked, setChecked] = useState(true);
  
   const handleLogin = async (values) => {
-    navigate('/dashboard');
+    navigate('/app/dashboard');
     console.error('Login');
   };
   const googleHandler = async () => {
